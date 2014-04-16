@@ -20,3 +20,4 @@ Papers
 ------
 papers which have helped me so far
 1. [Roemisch](http://www.daimi.au.dk/~aquak/MasterThesisKristofRoemisch.pdf)
+2. [laine](https://mediatech.aalto.fi/~samuli/publications/laine2010tr1_paper.pdf)
