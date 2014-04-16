@@ -1,0 +1,39 @@
+PDS_VERSION_ID         = PDS3 
+
+RECORD_TYPE            = STREAM
+INSTRUMENT_HOST_NAME   = "MARS GLOBAL SURVEYOR"
+INSTRUMENT_NAME        = "MARS ORBITER LASER ALTIMETER"
+TARGET_NAME            = MARS
+OBJECT                 = TEXT
+  PUBLICATION_DATE     = 2007-04-19
+  NOTE                 = "Notes and errata for the MOLA MEGDR
+                          archive" 
+END_OBJECT             = TEXT
+END 
+
+April 19, 2007
+--------------
+
+North and south polar radius maps at 128, 256, and 512 pixels per
+degree are now included in the archive in the POLAR directory.
+
+October 13, 2006
+----------------
+
+North and south polar counts maps at 128, 256, and 512 pixels per
+degree are now included in the archive, in the POLAR directory.
+
+January 31, 2005
+-----------------
+
+North and south polar topographic maps at 128, 256 and 512 pixels per
+degree are now included in the archive, in the directory named POLAR.
+
+May 1, 2003
+-----------
+
+This data set is intended to contain high resolution (512 pixels per
+degree) polar topographic maps, in addition to the global simple
+cylindrical maps. The map projection standards for the polar product
+are still under development. The polar topographic maps will be added
+to this archive once the projection standards are complete. 

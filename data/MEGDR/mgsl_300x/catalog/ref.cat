@@ -1,0 +1,242 @@
+PDS_VERSION_ID                = PDS3
+LABEL_REVISION_NOTE           = "S. SLAVNEY, 1998-09-30;
+                                 S. SLAVNEY, 1999-02-24;
+                                 S. SLAVNEY, 2000-05-22;
+                                 S. SLAVNEY, 2001-04-13"
+RECORD_TYPE                   = STREAM
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "ABSHIREETAL2000"
+ REFERENCE_DESC               = "Abshire, J. B., X. Sun, and
+       R. S. Afzal, Mars Orbiter Laser Altimeter: Receiver Model 
+       and Performance Analysis, Applied Optics-LP, 39, 2449, 2000."
+END_OBJECT
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "ACUNAETAL1992"
+ REFERENCE_DESC               = "Acuna, M.H., J.E.P. Connerney, P.
+      Wasilewski, R.P. Lin, K.A. Anderson, C.W. Carlson, J. 
+      McFadden, D.W. Curtis, H. Reme, A. Cros, J.L. Medale, J.A. 
+      Sauvaud, C. D'Uston, S.J. Bauer, P. Cloutier, M. Mayhew, 
+      and N.F. Ness, The Mars Observer Magnetic Fields
+      Investigation, J. Geophys. Res., 97, 7799, 1992."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+REFERENCE_KEY_ID              = "AFZALETAL1997"
+REFERENCE_DESC                = "Afzal, R.S., A.W. Yu, 
+      J.J. Zayhowski, and T.Y. Fan, Single-mode 
+      high-peak-power passively Q-switched diode pumped 
+      ND:YAG laser, Optics letters, 22, 1314, 1997."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "ALBEEETAL1998"
+ REFERENCE_DESC               = "Albee, A.L., F.D. Palluconi, 
+      and R.E. Arvidson, Mars Global Surveyor mission: 
+      Overview and status, Science, 279, 1671-1672, 1998."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "ALBEEETAL1992"
+ REFERENCE_DESC               = "Albee, A.L., R.E. Arvidson, 
+      and F.D. Palluconi, Mars Observer Mission, Journal of 
+      Geophysical Research, 97, 7665-7680, 1992."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE 
+ REFERENCE_KEY_ID             = "ASMAR&RENZETTI1993"
+ REFERENCE_DESC               = "Asmar, S.W., and N.A. 
+       Renzetti, The Deep Space Network as an Instrument 
+       for Radio Science Research, Jet Propulsion Laboratory
+       Publication 80-93, Rev.1, 15 April 1993."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "BYERETAL1988"
+ REFERENCE_DESC               = "Byer, R.L., 
+      Diode laser-pumped solid state lasers, 
+      Science, 239, 742-747, 1988." 
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+REFERENCE_KEY_ID              = "CHRISTENSENETAL1992"
+ REFERENCE_DESC               = "Christensen, P.R., D.L. Anderson, 
+      J.S.C. Chase, R.N. Clark, H.H. Kieffer, M.C. Malin, J.J.C. 
+      Pearl, J. Carpenter, N. Bandiera, F.G. Brown, and S. 
+      Silverman, Thermal emission spectrometer experiment: Mars 
+      Observer mission, J. Geophys. Res., 97, (E5) 7719-7734, 1992." 
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "CROSSETAL1987"
+ REFERENCE_DESC               = "Cross, P.S., G.L. Harnagel, 
+      W. Streifer, D.R. Scifres, and D.F. Welch, 
+      Ultrahigh-power semiconductor diode laser arrays, Science, 
+      237, 1305-1309, 1987."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "DAVIESETAL1992B"
+ REFERENCE_DESC               = "Davies, M. E., V. K. Abalakin, 
+      A. Brahic, M. Bursa, B. H. Chovitz, J. H. Lieske, P. K. 
+      Seidelmann, A. T. Sinclair, and Y. S. Tjuflin, Report 
+      of the IAU/IAG/COSPAR working group on Cartographic 
+      Coordinates and Rotational Elements of the Planets and
+      Satellites: 1991, Celestial Mechanics and Dynamical 
+      Astronomy, 53, 377-397, 1992."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "DAVIESETAL1994B"
+ REFERENCE_DESC               = "Davies, M.E., 
+      V.K. Abalakin, M. Bursa, J.H. Lieske, B. Morando,
+      D. Morrison, P.K. Seidelman, A.T. Sinclair, B. Yallop, 
+      and Y.S. Tjuflin, Report of the IAU/IAG/COSPAR Working 
+      Group on Cartographic Coordinates and Rotational Elements 
+      of the Planets and Satellites, Celestial Mechanics 
+      and Dynamical Astronomy 63, 127-148, 1994."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "DUXBURYETAL2001"
+ REFERENCE_DESC               = "Duxbury, T.C., et al., Mars
+      Geodesy/Cartography Working Group recommendations on
+      Mars cartographic constants and coordinate systems,
+      International Society for Photogrammetry and Remote
+      Sensing Extraterrestrial Mapping Workshop, USGS, 
+      Flagstaff, Arizona, 2001."
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "ESTABROOKETAL1995"
+ REFERENCE_DESC               = "Estabrook, F.B., and
+      H.D. Wahlquist, Response of Doppler Spacecraft Tracking
+      to Gravitational Radiation, Gen. Rel. Grav., 6, 439-447, 
+      1995."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "JPLD-12088"
+ REFERENCE_DESC               = "Mars Global Surveyor 
+      Project, Mission Plan, Final Version (MGS 542-405), 
+      JPL Document D-12088, Jet Propulsion Laboratory, 
+      Pasadena, CA, 1995."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "KAULAETAL1974"
+ REFERENCE_DESC               = "Kaula, W.M., 
+      G. Schubert, R.E. Lingenfelter, W.L. Sjogren, 
+      and W.R. Wollenhaupt, Apollo laser 
+      altimetry and inferences as to lunar structure, 
+      Proceedings of the V Lunar Science Conference, 
+      3049-3050, 1974."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "KAULAETAL1973"
+ REFERENCE_DESC               = "Kaula, W.M., 
+      G. Schubert, R.E. Lingenfelter, W.L. Sjogren, 
+      And W.R. Wollenhaupt, Lunar topography from Apollo 15 
+      and 16 laser altimetry, Proceedings of the IV Lunar 
+      Science Conference, 2811-2819, 1973."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "KAULAETAL1972"
+ REFERENCE_DESC               = "Kaula, W.M., 
+      G. Schubert, R.E. Lingenfelter, W.L. Sjogren, and 
+      W.R. Wollenhaupt, Analysis and interpretation of lunar 
+      laser altimetry, Proceedings of the III Lunar Science 
+      Conference, 2819-2204, 1972."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "MALINETAL1992"
+ REFERENCE_DESC               = "Malin, M.C., G.E. Danielson, 
+      A.P. Ingersoll, H. Masursky, J. Veverka, M.A. Ravine, and 
+      T.A. Soulanille, Mars Observer Camera, J. Geophys Res., 97, 
+      (E5) 7699-7718, 1992."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "MOLAAEDRSIS1998"
+ REFERENCE_DESC               = "Mars Orbiter Laser Altimeter
+    Aggregated Experiment Data Record Software Interface
+    Specification, Version 2.1, NASA/Goddard Space Flight 
+    Center, September 24, 1998."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "MOLAEGDRSIS1999"
+ REFERENCE_DESC               = "Mars Orbiter Laser Altimeter
+    Experiment Gridded Data Record Software Interface
+    Specification, version 2.0, NASA/Goddard Space Flight 
+    Center, November 23, 1999."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "MOLAPEDRSIS1998"
+ REFERENCE_DESC               = "Mars Orbiter Laser Altimeter
+    Precision Experiment Data Record Software Interface
+    Specification, Version 2.6, NASA/Goddard Space Flight 
+    Center, October 1, 1998."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "SEIDELMANNETAL2002"
+ REFERENCE_DESC               = "Seidelmann, P.K., et al., Report
+    of the IAU/IAG working group on cartographic coordinates and
+    rotational elements of the planets and satellites: 2000, 
+    Celestial Mechanics and Dynamical Astronomy, 82, 83-111, 2002."
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "SIMPSON1999"
+ REFERENCE_DESC               = "Simpson, R. A., Software Interface
+    Specification: Spherical Harmonics ASCII Data Record (SHADR), 
+    version 2.0.2, Stanford University, March 9, 1999."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "SMITHETAL1998"
+ REFERENCE_DESC               = "Smith, D.E., M.T. Zuber, 
+      H.V. Frey, J.B. Garvin, J.W. Head, D.O. Muhleman, 
+      G.H. Pettengill, R.J. Phillips, S.C. Solomon, H.J. 
+      Zwalley, W.B. Banerdt, and T.C. Duxbury, Topography 
+      of the northern hemisphere of Mars from the Mars Orbiter 
+      Laser Altimeter, Science, 279, 1686-1692, 1998." 
+END_OBJECT                    = REFERENCE
+
+OBJECT                          = REFERENCE
+ REFERENCE_KEY_ID               = "SNYDER1987"
+ REFERENCE_DESC                 = "Snyder, John P., Map
+      Projections -- A Working Manual, U. S. Geol. Surv.
+      Professional Paper 1395, 383p., 1987."
+END_OBJECT                      = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "TYLERETAL1992"
+ REFERENCE_DESC               = "Tyler, G.L., G. Balmino, D.P. 
+      Hinson, W.L. Sjogren, D.E. Smith, R. Woo, S.W. Asmar, 
+      M.J. Connally, C.L. Hamilton, and R.A. Simpson, Radio 
+      Science Investigations with Mars Observer, Journal of 
+      Geophysical Research, 97, 7759-7779, 1992."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "WOO1993"
+ REFERENCE_DESC               = "Woo, R., Spacecraft Radio 
+      Scintillation and Solar System Exploration, Wave Propagation
+      in Random Media (Scintillation), Society of Photo-Optical 
+      Instrumentation Engineers, Bellingham, WA, 1993."
+END_OBJECT                    = REFERENCE
+
+OBJECT                        = REFERENCE
+ REFERENCE_KEY_ID             = "ZUBERETAL1992"
+ REFERENCE_DESC               = "Zuber, M.T., D.E. Smith, S.C. 
+      Solomon, D.O. Muhleman, J.W. Head, J.B. Garvin, J.B. 
+      Abshire, and J.L. Bufton, The Mars Observer Laser Altimeter 
+      investigation, J. Geophys. Res., 97, (E5) 7781-7797, 1992."
+END_OBJECT                    = REFERENCE
+
+END

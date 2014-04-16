@@ -1,0 +1,68 @@
+PDS_VERSION_ID                    = PDS3
+LABEL_REVISION_NOTE               = "S. SLAVNEY, 2005-01-11"
+RECORD_TYPE                       = STREAM
+
+OBJECT                            = DATA_SET_MAP_PROJECTION
+ DATA_SET_ID                      = "MGS-M-MOLA-5-MEGDR-L3-V1.0"
+ OBJECT                           = DATA_SET_MAP_PROJECTION_INFO
+  MAP_PROJECTION_TYPE             = "POLAR STEREOGRAPHIC"
+  MAP_PROJECTION_DESC             = "
+
+In this polar stereographic projection [SNYDER1987], the projection is
+centered on the north or south pole. Lines of longitude extend
+radially from the center and parallels of latitude are concentric
+circles around the center. In the north, Longitude 0 extends straight
+down from the center and Longitude 90 East extends to the right.
+In the south, Longitude 0 extends straight up from the center, and
+Longitude 90 East extends to the right. An ellipsoid has been
+adopted for Mars by the IAU with C=3376.2 and A=3396.19. The MOLA Team
+has approximated the ellipsoidal projection by adopting a spherical
+geometry with a polar radius of 3376.2 km, with a planetocentric
+spacing of 2^n pixels per degree at the pole. This can be converted to
+a nominal scale factor of 115.09 meters per pixel for 512 pixels per
+degree, 230.18 meters per pixel for 256 pixels per degree, and 460.36
+meters per pixel for 128 pixels per degree.
+
+The transformation from line and sample coordinates to planetocentric
+latitude and longitude is given by these equations.
+
+   X = (I - N/2 - 0.5)/RES
+   Y = (J - N/2 - 0.5)/RES
+
+   R = SQRT(X^2 + Y^2)
+
+   LON = ATAN2(X,Y) * 180/PI
+   LAT = 90 - 2*ATAN(R*PI/360) * 180/PI (northern hemisphere)
+   LAT = -90 + 2*ATAN(R*PI/360) * 180/PI (southern hemisphere)
+
+where
+
+   I = sample coordinate
+   J = line coordinate
+   X,Y = I,J converted to Cartesian coordinate system with 0,0 at center
+   RES = the map resolution in pixels per degree
+   N = the number of lines or samples per line in the image
+       (the images are square)
+   R = radius from center of map to pixel I,J
+   LON = east longitude of pixel I,J in degrees
+   LAT = latitude of pixel I,J in degrees
+
+Values for RES and N can be found in the image label as the 
+keywords MAP_RESOLUTION and LINES.
+
+"
+
+  ROTATIONAL_ELEMENT_DESC         = "See [SEIDELMANNETAL2002]."
+
+  OBJECT                          = DS_MAP_PROJECTION_REF_INFO
+   REFERENCE_KEY_ID               = "SEIDELMANNETAL2002"
+  END_OBJECT                      = DS_MAP_PROJECTION_REF_INFO
+
+  OBJECT                          = DS_MAP_PROJECTION_REF_INFO
+   REFERENCE_KEY_ID               = "SNYDER1987"
+  END_OBJECT                      = DS_MAP_PROJECTION_REF_INFO
+
+ END_OBJECT                       = DATA_SET_MAP_PROJECTION_INFO
+END_OBJECT                        = DATA_SET_MAP_PROJECTION
+
+END

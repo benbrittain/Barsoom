@@ -1,0 +1,38 @@
+PDS_VERSION_ID                = PDS3
+RECORD_TYPE                   = STREAM
+OBJECT                        = TEXT
+  PUBLICATION_DATE            = 2003-04-08
+  NOTE                        = "Description of the CATALOG
+     directory contents for the MOLA MEGDR archive."
+END_OBJECT                    = TEXT
+END
+
+
+                   CATALOG Directory Contents
+
+     The CATALOG directory contains PDS catalog objects describing the
+MGS mission and spacecraft, the MOLA instrument, the MEGDR dataset, 
+and references.
+
+     The following files are found in this directory.
+
+CATINFO.TXT  - The file you are reading.
+
+DSMAP.CAT    - Description of map projection referenced in
+                 MEGDR image labels.
+
+DSMAP_POLAR.CAT - Description of map projection referenced in
+                 Polar MEGDR image labels.
+
+INST.CAT     - Description of the MOLA instrument.
+
+INSTHOST.CAT - Description of the MGS spacecraft.
+
+MEGDRDS.CAT  - Description of the MOLA Mission EGDR data set.
+
+MISSION.CAT  - Description of the MGS mission.
+
+PERSON.CAT   - Description of personnel associated with production
+                 of this volume.
+
+REF.CAT      - References mentioned in other *.CAT files.
