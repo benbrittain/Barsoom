@@ -2,6 +2,7 @@
 extern crate rand;
 
 use rand::{weak_rng, Rng};
+use std::num;
 
 
 #[deriving(Show)]
@@ -29,7 +30,7 @@ enum Node {
 
 
 #[deriving(Show)]
-struct Octree {
+pub struct Octree {
   origin: Point, // center of node
   size: f32, // size of node
   data: Option<Point>,
@@ -37,7 +38,7 @@ struct Octree {
 }
 
 impl Octree {
-  fn new_root() -> Octree {
+  pub fn new_root() -> Octree {
     Octree{
       origin: Point::new(0.0,0.0,0.0),
       size: 200000000000.0,
@@ -45,7 +46,7 @@ impl Octree {
       children: Leaf
     }
   }
-  fn new(pnt: Point, size: f32) -> Octree {
+  pub fn new(pnt: Point, size: f32) -> Octree {
     Octree{
       origin: pnt,
       size: size,
@@ -106,6 +107,8 @@ impl Octree {
       }
     }
   }
+  // TODO write, get points w/ limits - mandatory
+  // TODO write? just get point? less efficient for sure though
 }
 
 fn getOctant(origin: Point, pnt: Point) -> uint {
@@ -123,18 +126,38 @@ fn getOctant(origin: Point, pnt: Point) -> uint {
 }
 
 fn main() {
+  sphere_test()
+}
 
+fn sphere_test() {
+  // yes, I know points are gonna be bunched at the poles
   let mut tree = Octree::new_root();
   let mut rng = rand::weak_rng();
-  for x in range(0,10000000000){
-    if x%10000 == 0 {
-      println!("added {} nodes", x);
+  for i in range (0,8000000) {
+    // radius of Mars in meters
+//    let r: f32      = rng.gen_range(0.0 as f32, 3389500.0);
+    let r: f32      = rng.gen_range(495.0 as f32, 500.0);
+    let theta: f32  = rng.gen_range(0.0 as f32, 2.0*3.14159);
+    let phi: f32    = rng.gen_range(0.0 as f32, 3.14159);
+    let x = r*theta.cos()*phi.sin();
+    let y = r*theta.sin()*phi.sin();
+    let z = r*phi.cos();
+    if (i%100000) == 0 {
+      println!("point {}: ({},{},{})",i,x,y,z);
     }
+    tree.insert(Point::new(x,y,z));
+  }
+
+
+}
+
+fn point_test() {
+  let mut tree = Octree::new_root();
+  let mut rng = rand::weak_rng();
+  for _ in range(0,10000000){
     let x: f32 = rng.gen_range(0.0 as f32, 144000000000.0);
     let y: f32 = rng.gen_range(0.0 as f32, 144000000000.0);
     let z: f32 = rng.gen_range(0.0 as f32, 144000000000.0);
     tree.insert(Point::new(x,y,z));
   }
-
-
 }
